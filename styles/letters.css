@@ -1,0 +1,47 @@
+
+.letter_link {
+	text-decoration: none;
+	color: #333;
+}
+
+.letter_link:visited {
+	color: #333;
+}
+
+.letter_container {
+	width: 600px;
+	background: #fff;
+	border-radius: 6px;
+	padding: 30px;
+	margin-bottom: 30px;
+	box-shadow:rgba(0, 0, 0, 0.1) 0px 3px 3px 0px;
+	cursor: pointer;
+	box-sizing: border-box;
+}
+
+.letter_container:hover {
+	box-shadow:rgba(0, 0, 0, 0.1) 2px 4px 4px 2px;
+}
+
+.letter-title {
+	font-size: 40px;
+	margin: 0;
+	font-weight: 100;
+	font-family: "Kievit", sans-serif;
+}
+
+.letter-date {
+	font-size: 16px;
+	line-height: 28.8px;
+	margin: 0;
+	font-weight: 100;
+	color: #76828a;
+}
+
+p {
+	font-size: 16px;
+	line-height: 28.8px;
+	color: #76828a;
+	font-weight: 100;
+	font-family: "Marat", serif;
+}

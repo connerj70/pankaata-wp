@@ -1,0 +1,75 @@
+.email-container {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	padding: 30px 0;
+	border-right: 1px solid #333;
+}
+
+.email-form {
+	width: 100%;
+    margin: 0 auto;
+    max-width: 700px;
+}
+
+.email-banner {
+	display: block;
+	width: 100%;
+	margin-top: 30px;
+	max-width: 700px;
+}
+
+.email_sub-container {
+	max-width: 700px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+
+.email_sub-container input {
+	width: 100%;
+	max-width: 595px;
+	padding: 5px 10px;
+	height: 40px;
+	margin-left: 10px;
+}
+
+.email-submit-btn {
+	cursor: pointer;
+	width: 100%;
+	padding: 20px 20px;
+	background: var(--pink);
+	color: #fff;
+	font-size: 20px;
+	box-shadow: 1px 1px 1px #d3d3d3;
+	border-bottom: 30px;
+}
+
+.lady-ann-logo2-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    max-width: 700px;
+    margin-top: 20px;
+}
+
+.lady-ann-logo2 {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
