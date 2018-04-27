@@ -1072,8 +1072,20 @@ object {
     justify-content: space-between;
 }
 
+.main-menu-bell-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-menu-1-container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
 .menu-item a:hover {
-    color: var(--pink);
+    color: var(--yellow);
 }
 
 .secondary-nav-container {
@@ -1139,10 +1151,17 @@ input:focus {outline:none;}
     right: 15px;
 }
 
+.custom-mail-btn {
+    padding: 10px 40px;
+    font-size: 22px;
+    background-color: var(--yellow);
+    color: #fff;
+    border: none;
+    box-shadow: 1px 1px 5px 0px #d3d3d3;
+    cursor:pointer;
+}
+
 .notification-bell {
-    position: absolute;
-    right: 30px;
-    top: 66px;
     color: var(--yellow);
 }
 
@@ -1380,13 +1399,13 @@ input:focus {outline:none;}
     .load {
         margin: 30px auto;
         padding: 15px 20px;
-        display: flex;
         align-items: center;
         background-color: var(--blue);
         color: #fff;
         box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.1);
         cursor: pointer;
         font-size: 20px;
+        display:none;
     }
 
     .load:hover {
@@ -1413,17 +1432,22 @@ input:focus {outline:none;}
 @media(max-width: 870px) {
 
     .notification-bell {
-    position: absolute;
-    right: 90px;
-    top: 85px;
-    color: var(--yellow);
+        position: absolute;
+        right: 90px;
+        top: 37px;
+        color: var(--yellow);
+    }
+
+    .custom-mail-btn {
+        padding: 5px 20px;
+        font-size: 18px;
     }
 
     #primary-menu[aria-expanded = "true"] {
         background: #fff;
         position:absolute;
         left:0;
-        top: 126px;
+        top: 140px;
         display: flex;
         flex-direction: column;
         height: 380px;
@@ -1436,12 +1460,19 @@ input:focus {outline:none;}
     #primary-menu[aria-expanded = "true"] li {
         padding: 20px;
         border-top: 1px solid #333;
+        color: #333;
+    }
+
+    #primary-menu[aria-expanded = "true"] li a{
+        color: #333;
+        font-size: 14px;
     }
 
     #primary-menu[aria-expanded = "true"] li:hover {
     }
 
     #primary-menu[aria-expanded = "true"] li a:hover {
+        color: var(--yellow);
     }
     .main-navigation {
         display: flex;

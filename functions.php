@@ -148,7 +148,7 @@ function lady_ann_scripts() {
 	wp_enqueue_script( 'custom', get_template_directory_uri() . '/js/custom.js', array('jquery'), '20151215', true );
 
 	// validation
-	wp_register_script( 'validation', 'http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js', array( 'jquery' ) );
+	wp_register_script( 'validation', 'https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js', array( 'jquery' ) );
 	wp_enqueue_script( 'validation' );
 
 	wp_enqueue_script( 'lady-ann-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
@@ -160,7 +160,7 @@ function lady_ann_scripts() {
 add_action( 'wp_enqueue_scripts', 'lady_ann_scripts' );
 
 /**
- * Implement the Custom Header feature.
+ * Implement the Custom Header feature.o
  */
 require get_template_directory() . '/inc/custom-header.php';
 
