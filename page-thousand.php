@@ -1,7 +1,7 @@
 
 <?php
 /*
-*Template Name: News Page
+*Template Name: Food Page
 * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package lady-ann
@@ -21,7 +21,7 @@ get_header();
 		<?php
 
 			$args = array(
-				'cat' => 6,
+				'cat' => 11,
 				'post_status' => "publish"
 			);
 

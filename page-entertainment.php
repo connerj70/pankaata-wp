@@ -21,7 +21,7 @@ get_header();
 		<?php
 
 			$args = array(
-				'cat' => 5,
+				'cat' => 8,
 				'post_status' => "publish"
 			);
 

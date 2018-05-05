@@ -52,7 +52,7 @@ if ($lady_ann_description || is_customize_preview()):
 		    'menu_id' => 'primary-menu',
 		));
 		?>
-		<i class="fas fa-bell notification-bell"></i>
+		<!-- <i class="fas fa-bell notification-bell"></i> -->
 	</div>
 		</nav><!-- #site-navigation -->
 	</header><!-- #masthead -->
