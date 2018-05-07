@@ -1,7 +1,7 @@
 
 <?php
 /*
-*Template Name: Food Page
+*Template Name: Motivational Page
 * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
  * @package lady-ann
