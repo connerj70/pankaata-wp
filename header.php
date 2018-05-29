@@ -60,8 +60,8 @@ if ($lady_ann_description || is_customize_preview()):
 	<div class="secondary-nav-container">
 		<div class="secondary-nav">
 			<div class="secondary-nav-left">
-				<button class="custom-mail-btn">Subscribe</button>
-			</div>
+<!-- 				<button class="custom-mail-btn">Subscribe</button>
+ -->			</div>
 			<div class="secondary-nav-right">
 				<?php get_search_form(); ?>
 				<!-- <input type="text" class="secondary-nav-search search-hidden"/> -->
