@@ -41,7 +41,7 @@ function load_more() {
 
 	else : 
 
-	echo "<script type='text/javascript'>alert('all posts loaded');</script>";
+	echo "<script type='text/javascript'></script>";
 
 		endif;
 

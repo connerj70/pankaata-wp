@@ -113,6 +113,21 @@ function lady_ann_content_width() {
 }
 add_action( 'after_setup_theme', 'lady_ann_content_width', 0 );
 
+
+//THIS IS CAUSING THE POSTS NOT TO LOAD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+//BUT I NEED IT FOR THE ADD TO ANY BUTTONS TO SHOW UP ON POSTS LOADED THROUGH AJAX
+
+// function addtoany_misha_loadmore( $query ) {
+// 	// Remove to avoid the check.
+// 	remove_filter( 'the_content', 'A2A_SHARE_SAVE_add_to_content', 98 );
+// 	remove_filter( 'the_excerpt', 'A2A_SHARE_SAVE_add_to_content', 98 );
+// 	// Add without the check.
+// 	add_filter( 'the_content', 'A2A_SHARE_SAVE_add_to_content', 98 );
+// 	add_filter( 'the_excerpt', 'A2A_SHARE_SAVE_add_to_content', 98 );
+// }
+// add_action( 'pre_get_posts', 'addtoany_misha_loadmore' );
+
 /**
  * Register widget area.
  *
@@ -127,6 +142,16 @@ function lady_ann_widgets_init() {
 		'after_widget'  => '</section>',
 		'before_title'  => '<h2 class="widget-title">',
 		'after_title'   => '</h2>',
+	) );
+
+	register_sidebar( array(
+	'name' => 'Footer Sidebar 1',
+	'id' => 'footer-sidebar-1',
+	'description' => 'Appears in the footer area',
+	'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+	'after_widget' => '</aside>',
+	'before_title' => '<h3 class="widget-title">',
+	'after_title' => '</h3>',
 	) );
 }
 add_action( 'widgets_init', 'lady_ann_widgets_init' );

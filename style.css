@@ -1383,6 +1383,10 @@ input:focus {outline:none;}
     margin-left: 10px;
 }
 
+.footer_social-container a i {
+    color: #fff !important;
+}
+
 .increase-size {
     font-size: 25px;
 }
@@ -1419,7 +1423,7 @@ input:focus {outline:none;}
 .custom-logo-link {
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 
@@ -1604,11 +1608,12 @@ POST META
         top: 120px;
         display: flex;
         flex-direction: column;
-        height: 300px;
+        height: 365px;
         border-top: 1px solid #333;
         box-shadow:rgba(0, 0, 0, 0.1) 0px 3px 3px 0px;
         z-index: 5;
         transition: all 1s;
+        color: #000;
     }
 
     #primary-menu[aria-expanded = "true"] li {
