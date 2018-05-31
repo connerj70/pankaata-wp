@@ -29,16 +29,7 @@ get_header();
 
 		?>
 		<?php if($query->have_posts()) : while($query->have_posts()) : $query->the_post(); ?>
-		<div class="type-post">
-			<h1 class="letter-title"><?php the_title() ?></h1>
-			<div class="entry-meta">
-					<?php
-					lady_ann_posted_on();
-					lady_ann_posted_by();
-					?>
-			</div><!-- .entry-meta -->
-			<div><?php the_content() ?></div>
-		</div>
+			<?php get_template_part( 'template-parts/content', get_post_type() ); ?>
 
 		<?php endwhile; endif; wp_reset_postdata(); ?>
 

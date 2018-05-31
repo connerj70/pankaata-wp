@@ -1070,6 +1070,10 @@ object {
     color: #d3d3d3;
 }
 
+#primary-menu li a:hover {
+    color: var(--yellow);
+}
+
 .site-navigation {
     display: flex;
     justify-content: space-between;
@@ -1588,6 +1592,12 @@ POST META
 
 
 /* MEDIA QUERIES */
+
+@media(max-width: 1350px) {
+    .type-post {
+        max-width: 100%;
+    }
+}
 
 @media(max-width: 900px) {
     .menu-item a {
