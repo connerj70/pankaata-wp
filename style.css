@@ -1653,6 +1653,11 @@ POST META
         box-shadow:rgba(0, 0, 0, 0.1) 0px 3px 3px 0px;
         min-width: 330px;
         width: 100%;
+        max-width: 100%;
+    }
+
+    .inner-site-content {
+        justify-content: center;
     }
 
     .type-user_letters {
@@ -1719,6 +1724,7 @@ POST META
     .type-post {
         width: 100%;
         margin-right: 0;
+        max-width: 100%;
     }
 }
 
