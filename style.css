@@ -79,7 +79,7 @@ html {
  */
 
 body {
-    background: #2f3e4e;
+    background: #fff;
     margin: 0;
 }
 
@@ -907,7 +907,7 @@ a:active {
 }
 
 #page {
-    background: #2f3e4e;
+    background: #fff;
 }
 
 .page-content,
@@ -1060,14 +1060,14 @@ object {
     align-items: center;
     justify-content: space-between;
     padding: 0px 50px;
-    background: #2f3e4e;
+    background: #fff;
     height: 60px;
     margin: 0 auto;
     max-width: 1400px;
 }
 
 #primary-menu li a {
-    color: #d3d3d3;
+    color: #333;
 }
 
 #primary-menu li a:hover {
@@ -1108,12 +1108,12 @@ object {
 .secondary-nav-container {
     width: 100%;
     height: 60px;
-    background: var(--pink);
+    background: #323E4C
 }
 
 .secondary-nav {
     max-width: 1400px;
-    background: var(--pink);
+    background: #323E4C;
     height: 100%;
     margin: 0 auto;
     padding: 0 50px;
@@ -1129,13 +1129,12 @@ object {
 
 .secondary-nav-search {
     border-radius: 16px !important;
-    background: rgba(0, 0, 0, 0.2);
+    background: #323E4C;
     padding: 5px 10px !important;
     color: #fff !important;
     transition: all 0.3s;
     opacity: 0;
     width: 0px;
-    background: var(--pink);
     color: black;
     border: 1px solid #fff !important;
 }
@@ -1377,6 +1376,7 @@ input:focus {outline:none;}
     flex-direction: column;
     align-items: center;
     color: var(--pink);
+    background: #323E4C;
 }
 
 .footer-margin {
@@ -1512,7 +1512,7 @@ input:focus {outline:none;}
         padding: 15px 20px;
         align-items: center;
         justify-content: center;
-        background-color: var(--pink);
+        background-color: #323E4C;
         color: #fff;
         box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.1);
         cursor: pointer;
