@@ -1357,6 +1357,7 @@ input:focus {outline:none;}
     margin-top: 20px;
     margin-bottom: 20px;
     /*max-width: 85% !important;*/
+    width: 100%;
 }
 
 
