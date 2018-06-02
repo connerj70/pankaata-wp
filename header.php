@@ -44,7 +44,7 @@ if ($lady_ann_description || is_customize_preview()):
 		</div><!-- .site-branding -->
 
 		<nav id="site-navigation" class="main-navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
+			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><img class="header_bars" src="<?php bloginfo('template_url'); ?>/assets/bars.png" /></button>
 	<div class="main-menu-bell-container">
 				<?php
 		wp_nav_menu(array(

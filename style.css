@@ -1780,6 +1780,10 @@ POST META
     justify-content: center;
 }
 
+.header_bars {
+    width: 13px;
+}
+
 
 
 
