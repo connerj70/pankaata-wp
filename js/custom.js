@@ -35,7 +35,7 @@ jQuery(document).ready(function($) {
 
     
         $(window).scroll(function() {
-               if($(window).scrollTop() + $(window).height() == $(document).height() && timesLoaded < 4 && window.location.pathname == '/pankaata/') {
+               if($(window).scrollTop() + $(window).height() == $(document).height() && timesLoaded < 4 && window.location.pathname == '/') {
                 timesLoaded += 1;
                 if(timesLoaded === 4) {
                     $(".load").css("display", "flex");
