@@ -35,7 +35,7 @@ jQuery(document).ready(function($) {
 
     
         $(window).scroll(function() {
-               if($(window).scrollTop() + $(window).height() == $(document).height() && timesLoaded < 4 && window.location.pathname == '/') {
+               if($(window).scrollTop() + $(window).height() == $(document).height() && timesLoaded < 4 && window.location.pathname == '/' && window.location.search == "") {
                 timesLoaded += 1;
                 if(timesLoaded === 4) {
                     $(".load").css("display", "flex");

@@ -1260,6 +1260,7 @@ input:focus {outline:none;}
     min-width: 380px;
     max-width: 48%;
     margin-right: 10px;
+    width: 70%;
 }
 
 .type-user_letters {
@@ -1783,6 +1784,26 @@ POST META
 .header_bars {
     width: 13px;
 }
+
+.page-header {
+    width: 100%;
+}
+
+#onesignal-bell-container.onesignal-reset .onesignal-bell-launcher.onesignal-bell-launcher-theme-default .onesignal-bell-launcher-button svg .background {
+    fill: #fbb040 !important;
+}
+
+#media_image-4 {
+    position: sticky;
+    top: 50px;
+}
+
+#media_image-3 {
+    position: sticky;
+    top: 50px;
+}
+
+
 
 
 

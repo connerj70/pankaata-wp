@@ -113,6 +113,11 @@ function lady_ann_content_width() {
 }
 add_action( 'after_setup_theme', 'lady_ann_content_width', 0 );
 
+function remove_admin_login_header() {
+    remove_action('wp_head', '_admin_bar_bump_cb');
+}
+add_action('get_header', 'remove_admin_login_header');
+
 
 //THIS IS CAUSING THE POSTS NOT TO LOAD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
