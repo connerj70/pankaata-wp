@@ -1108,12 +1108,12 @@ object {
 .secondary-nav-container {
     width: 100%;
     height: 60px;
-    background: #323E4C
+    background: #1b75bc
 }
 
 .secondary-nav {
     max-width: 1400px;
-    background: #323E4C;
+    background: #1b75bc;
     height: 100%;
     margin: 0 auto;
     padding: 0 50px;
@@ -1129,7 +1129,7 @@ object {
 
 .secondary-nav-search {
     border-radius: 16px !important;
-    background: #323E4C;
+    background: #1b75bc;
     padding: 5px 10px !important;
     color: #fff !important;
     transition: all 0.3s;
@@ -1239,7 +1239,7 @@ input:focus {outline:none;}
 
 .content-area {
     border-right: 1px solid #d3d3d3;
-    padding-right: 80px;
+    padding-right: 20px;
     padding-top: 50px;
     min-height: 80vh;
     display:flex;
@@ -1514,7 +1514,7 @@ input:focus {outline:none;}
         padding: 15px 20px;
         align-items: center;
         justify-content: center;
-        background-color: #323E4C;
+        background-color: #1b75bc;
         color: #fff;
         box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.1);
         cursor: pointer;
@@ -1592,12 +1592,23 @@ POST META
     cursor: pointer !important;
 }
 
+.category-advertisement {
+    flex-basis: 100%;
+    max-width: 97%;
+}
+
 
 /* MEDIA QUERIES */
+
 
 @media(max-width: 1350px) {
     .type-post {
         max-width: 100%;
+    }
+
+    .category-advertisement {
+        max-width: 100%;
+        flex-basis: auto;
     }
 }
 
@@ -1647,7 +1658,7 @@ POST META
 
 
     .menu-toggle {
-        background: var(--pink);
+        background: #1b75bc;
         border: none;
         color: #fff;
         padding: 10px 15px;
@@ -1802,6 +1813,37 @@ POST META
     position: sticky;
     top: 50px;
 }
+
+.go-btn:hover {
+    background-color: #1b75bc !important;
+    color: #fff;
+}
+
+.site-main .comment-navigation, .site-main .posts-navigation, .site-main .post-navigation {
+    display: none;
+}
+
+.a2a_button_email img {
+    max-width: 111%;
+}
+
+.news-category-tag {
+    position: relative;
+    width: 120px;
+    top: -24px;
+    left: -30px;
+    background: #e74c3c;
+    padding: 10px 15px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+
+
 
 
 

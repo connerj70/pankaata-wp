@@ -10,7 +10,7 @@ get_header();
 ?>
 
 <div class="content-area">
-
+<main class="site-main">
 	<?php if(have_posts()) : 
 		while ( have_posts() ) :
 			the_post();
@@ -33,7 +33,7 @@ get_header();
 
 		<?php endwhile; endif; wp_reset_postdata(); ?>
 
-  	
+  </main>	
 </div><!-- #primary -->
 
 <?php

@@ -59,6 +59,15 @@
 			'after'  => '</div>',
 		) );
 		?>
+		
+		<?php 
+			if(has_category("news")) :
+		?>
+			<div class="news-category-tag">NEWS</div>
+		<?php 
+			endif;
+		?>
+		
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">

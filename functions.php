@@ -123,15 +123,15 @@ add_action('get_header', 'remove_admin_login_header');
 
 //BUT I NEED IT FOR THE ADD TO ANY BUTTONS TO SHOW UP ON POSTS LOADED THROUGH AJAX
 
-// function addtoany_misha_loadmore( $query ) {
-// 	// Remove to avoid the check.
-// 	remove_filter( 'the_content', 'A2A_SHARE_SAVE_add_to_content', 98 );
-// 	remove_filter( 'the_excerpt', 'A2A_SHARE_SAVE_add_to_content', 98 );
-// 	// Add without the check.
-// 	add_filter( 'the_content', 'A2A_SHARE_SAVE_add_to_content', 98 );
-// 	add_filter( 'the_excerpt', 'A2A_SHARE_SAVE_add_to_content', 98 );
-// }
-// add_action( 'pre_get_posts', 'addtoany_misha_loadmore' );
+function addtoany_misha_loadmore( $query ) {
+	// Remove to avoid the check.
+	remove_filter( 'the_content', 'A2A_SHARE_SAVE_add_to_content', 98 );
+	remove_filter( 'the_excerpt', 'A2A_SHARE_SAVE_add_to_content', 98 );
+	// Add without the check.
+	// add_filter( 'the_content', 'A2A_SHARE_SAVE_add_to_content', 98 );
+	add_filter( 'the_excerpt', 'A2A_SHARE_SAVE_add_to_content', 98 );
+}
+add_action( 'pre_get_posts', 'addtoany_misha_loadmore' );
 
 /**
  * Register widget area.
