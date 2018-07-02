@@ -64,6 +64,22 @@
 			if(has_category("news")) :
 		?>
 			<div class="news-category-tag">WorthyNews</div>
+		<?php
+			elseif(has_category("entertainment")) :
+		?>
+			<div class="news-category-tag">Entertainment</div>
+		<?php
+			elseif(has_category("food")) :
+		?>
+			<div class="news-category-tag">FoodPorn</div>
+		<?php
+			elseif(has_category("animals")) :
+		?>
+			<div class="news-category-tag">AnimalLovers</div>
+		<?php
+			elseif(has_category("thousand")) :
+		?>
+			<div class="news-category-tag">ThousandWords</div>
 		<?php 
 			endif;
 		?>
