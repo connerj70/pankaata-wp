@@ -70,6 +70,11 @@ get_header();
 		<button class="load" data-page="1" data-url="<?php echo admin_url('admin-ajax.php');?>">
 			<span class="load-text">NEXT <img class="next-arrow" src="<?php bloginfo('template_url'); ?>/assets/right-arrow.svg" /></span>
 		</button>
+		<div class="bottom-banner">
+			<div class="bottom-banner-close">x</div>
+			<h3>Heading</h3>
+			<div>Sub Heading</div>
+		</div>
 	</div><!-- #primary -->
 
 <?php

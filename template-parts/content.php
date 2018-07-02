@@ -63,7 +63,7 @@
 		<?php 
 			if(has_category("news")) :
 		?>
-			<div class="news-category-tag">NEWS</div>
+			<div class="news-category-tag">WorthyNews</div>
 		<?php 
 			endif;
 		?>

@@ -1587,9 +1587,13 @@ POST META
 .close-ad {
     position: absolute !important;
     color: #fff !important;
-    top: 3% !important;
-    right: 6% !important;
+    top: 1% !important;
+    right: 1% !important;
     cursor: pointer !important;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 2px 7px;
+    background: black;
 }
 
 .category-advertisement {
@@ -1804,7 +1808,7 @@ POST META
     fill: #fbb040 !important;
 }
 
-#media_image-4 {
+/*#media_image-4 {
     position: sticky;
     top: 50px;
 }
@@ -1812,7 +1816,7 @@ POST META
 #media_image-3 {
     position: sticky;
     top: 50px;
-}
+}*/
 
 .go-btn:hover {
     background-color: #1b75bc !important;
@@ -1839,6 +1843,28 @@ POST META
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
+}
+
+.bottom-banner {
+    width: 100%;
+    position:fixed;
+    bottom: 0;
+    background: #ef4136;
+    color: #fff;
+    left: 0;
+    margin: 0;
+    z-index: 9999999999999999999999999999999999999999;
+    padding: 10px 5%;
+}
+
+.bottom-banner-close {
+    z-index: 40;
+    float: right;
+    cursor: pointer;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 0px 8px;
 }
 
 

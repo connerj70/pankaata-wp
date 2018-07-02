@@ -128,7 +128,7 @@ function addtoany_misha_loadmore( $query ) {
 	remove_filter( 'the_content', 'A2A_SHARE_SAVE_add_to_content', 98 );
 	remove_filter( 'the_excerpt', 'A2A_SHARE_SAVE_add_to_content', 98 );
 	// Add without the check.
-	// add_filter( 'the_content', 'A2A_SHARE_SAVE_add_to_content', 98 );
+	add_filter( 'the_content', 'A2A_SHARE_SAVE_add_to_content', 98 );
 	add_filter( 'the_excerpt', 'A2A_SHARE_SAVE_add_to_content', 98 );
 }
 add_action( 'pre_get_posts', 'addtoany_misha_loadmore' );
