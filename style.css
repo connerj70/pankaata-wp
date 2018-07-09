@@ -1647,7 +1647,7 @@ POST META
 
     #primary-menu[aria-expanded = "true"] li {
         padding: 20px;
-        border-top: 1px solid #333;
+        /*border-top: 1px solid #333;*/
     }
 
     #primary-menu[aria-expanded = "true"] li:hover {
@@ -1662,7 +1662,7 @@ POST META
 
 
     .menu-toggle {
-        background: #1b75bc;
+        background: #FFF;
         border: none;
         color: #fff;
         padding: 10px 15px;
@@ -1797,7 +1797,7 @@ POST META
 }
 
 .header_bars {
-    width: 13px;
+    width: 22px;
 }
 
 .page-header {
