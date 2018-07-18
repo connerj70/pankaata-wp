@@ -105,6 +105,12 @@ jQuery(document).ready(function($) {
             $(".code-block-1").css("display", "none");
         });
 
+        $(".menu-toggle").on("click", function() {
+            $(".x-button").toggleClass("header_x");
+            $(".header_bars").toggleClass("header_bar");
+
+        })
+
     /* scroll functions */
     // var lastScroll = 0;
     // $(window).scroll(function() {

@@ -1630,14 +1630,23 @@ POST META
 
 @media(max-width: 740px) {
 
+  /*  .nav-menu {
+        width: 100vw;
+        height: 100vh;
+        top:0;
+        position:fixed;
+    }*/
+
     #primary-menu[aria-expanded = "true"] {
         background: #fff;
         position:absolute;
         left:0;
-        top: 120px;
+        position: fixed;
+        top: 0px;
         display: flex;
         flex-direction: column;
-        height: 365px;
+        height: 100vh;
+        width: 100vw;
         border-top: 1px solid #333;
         box-shadow:rgba(0, 0, 0, 0.1) 0px 3px 3px 0px;
         z-index: 5;
@@ -1662,15 +1671,18 @@ POST META
 
 
     .menu-toggle {
-        background: #FFF;
+        background: #fff;
         border: none;
         color: #fff;
         padding: 10px 15px;
+        z-index: 999999;
     }
 
     .menu-menu-1-container {
 
     }
+
+    
 
     .type-post {
         background: #fff;
@@ -1798,6 +1810,16 @@ POST META
 
 .header_bars {
     width: 22px;
+    z-index:999999;
+}
+
+.header_bar {
+    display:none;
+}
+
+.header_x {
+    width: 22px;
+    display:none;
 }
 
 .page-header {
